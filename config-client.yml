@@ -1,0 +1,47 @@
+spring:
+  profiles:
+    active: dev
+
+---
+server:
+  port: 8081
+
+spring:
+    profiles: dev
+  application:
+    name: config-clinet-8081
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/
+  instance:
+    instance-id: springcloud-config-clinet-8081 #修改Eureka的默认描述信息
+
+
+# 配置在Eureka中的详细信息（Status）
+info:
+  app.name: xsy-springcloud
+  company.name: blog.xsy.com
+
+---
+server:
+  port: 8082
+
+
+spring:
+    profiles: dev
+  application:
+    name: config-clinet-8082
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/
+  instance:
+    instance-id: springcloud-config-clinet-8082 #修改Eureka的默认描述信息
+
+
+# 配置在Eureka中的详细信息（Status）
+info:
+  app.name: xsy-springcloud
+  company.name: blog.xsy.com
