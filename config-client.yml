@@ -30,7 +30,7 @@ server:
 
 
 spring:
-    profiles: dev
+    profiles: test
   application:
     name: config-clinet-8082
 eureka:
