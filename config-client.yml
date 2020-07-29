@@ -7,7 +7,7 @@ server:
   port: 8081
 
 spring:
-    profiles: dev
+  profiles: dev
   application:
     name: config-clinet-8081
 
@@ -30,7 +30,7 @@ server:
 
 
 spring:
-    profiles: test
+  profiles: test
   application:
     name: config-clinet-8082
 eureka:
