@@ -8,8 +8,6 @@ server:
 
 spring:
   profiles: dev
-  application:
-    name: config-clinet-dev-8082
 
 eureka:
   client:
