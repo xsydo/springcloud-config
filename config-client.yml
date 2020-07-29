@@ -9,7 +9,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: config-clinet-8081
+    name: config-clinet-dev-8081
 
 eureka:
   client:
@@ -32,7 +32,7 @@ server:
 spring:
   profiles: test
   application:
-    name: config-clinet-8082
+    name: config-clinet-test-8082
 eureka:
   client:
     service-url:
