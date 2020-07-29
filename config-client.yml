@@ -29,8 +29,8 @@ server:
 
 spring:
   profiles: test
-  application:
-    name: config-clinet-test-8082
+  #application:
+    #name: config-clinet-test-8082
 eureka:
   client:
     service-url:
